@@ -11,7 +11,7 @@
         shuffle($pic);
     ?>
         <ul>
-            <?php for ($i = 0; $i<=2; $i++)
+            <?php for ($i = 0; $i<=3; $i++)
             echo "<li><img id=\"shuffle-image\" src=\"images/$pic[$i]\" ></li>";
             ?>
             
