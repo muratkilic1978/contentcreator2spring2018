@@ -1,0 +1,113 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+
+	font-family: arial;
+	font-size: 15px;
+	line-height: 1.5em;
+	background: #f4f4f4;
+}
+
+#container {
+	background: #333333;
+	margin: 50px auto;
+	overflow: auto;
+	width: 60%;
+	min-height: 650px;
+}
+
+header h1 {
+	color: #ffffff;
+	font-size: 22px;
+	padding: 15px 0 10px 10px;
+	border-bottom: 1px solid #ffffff;
+}
+
+#shouts {
+	width: 90%;
+	background: #f4f4f4;
+	height: 400px;
+	margin: 20px auto;
+	overflow: auto;
+}
+
+.shout {
+	list-style: none;
+	padding: 2px;
+	border-bottom: 1px #ooooooo dotted;
+}
+
+.shout span {
+	color: #aaaaaa;
+}
+
+#input {
+	width: 90%;
+	min-height: 80px;
+	margin: auto;
+	padding: 10px;
+}
+
+input[type="text"] {
+	height: 35px;
+	width: 45%;
+	margin-top: 15px;
+	margin-bottom: 20px;
+	border: #666666 solid 1px;
+	-moz-border-radius: 15px;
+ 	border-radius: 15px;
+    border:solid 1px black; 
+    padding:5px;
+}
+input[type="checkbox"] {
+    margin-right: 1.25%;
+    margin-bottom: 1%;
+}
+
+.shout-btn {
+	padding: 5px;
+	margin-bottom: 30px;
+	width: 100%;
+	height: 3.5em;
+	margin: 10px auto;
+	background-color: red;
+	-moz-border-radius: 15px;
+ 	border-radius: 15px;
+    border:solid 1px black; 
+    padding:5px;
+
+}
+
+.submit-btn {
+	font-size: 1.3em;
+	width: 14%;
+	height: 3.5em;
+	margin: 10px auto;
+	background-color: red;
+	-moz-border-radius: 15px;
+ 	border-radius: 15px;
+    border:solid 1px black; 
+    padding:5px;
+
+}
+
+
+.error {
+	background: red;
+	color: #ffffff;
+	padding: 5px;
+	margin-bottom: 2px;
+}
+
+@media only screen and (max-width: 760px) {
+
+	input[type="text"] {
+	width: 90%;
+	
+}
+
+
+}

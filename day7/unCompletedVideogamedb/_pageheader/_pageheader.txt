@@ -1,0 +1,4 @@
+//Page header
+$siteTitle = 'Add publisher';
+$siteName = 'Add publisher';
+$siteDescription = 'Please fill out the form below with information about the publisher.';
